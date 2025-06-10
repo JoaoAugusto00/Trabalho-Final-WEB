@@ -12,11 +12,14 @@
 </head>
 
 <body>
-    <header>
+    <header class="row"> 
         <nav class="navbar bg-body-tertiary fixed-top">
-            <div class="container-fluid" style="background-color: rgb(255, 255, 255); height: 100px;">
-                <a class="navbar-brand"
-                    href="https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/bedfaf558c9d4f89eedd4f0de14b03e5ae9010c9551d80b0fa7bf167bee085c6_1.jpg">...</a>
+            <div class="container-fluid"">
+                
+                <div class="navbar-brand">
+                        <img src="logo.jpg" alt="Logo""> 
+                </div>
+    
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,18 +27,17 @@
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                        </a>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
-                                    Catalog
+                                    Catálogo
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Harley Davidson Iron 883</a></li>
@@ -53,24 +55,26 @@
         </nav>
     </header>
 
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
+    <div class="row" id="carrossel">
+    <div class="col-sm-12">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
                 <img src="https://cdn.wallpapersafari.com/78/38/V3EiuM.jpg" class="d-block w-100" alt="H.D Iron 883">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 id="nomemotoesquerda">Harley Davidson Iron 883</h5>
                     <p id="detalhesmotoesquerda">Ano: <br>Valor: <br>Descrição:</p>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
+            <div class="carousel-item">
                 <a href="https://www.r3automotivo.com.br/catalogo">
                     <img src="https://www.yamaha-motor.com.pe/file/v7912140188930329061/products/SuperSport-R3-321-bloque01-v01-yamaha.jpg"
                         class="d-block w-100" alt="Yamaha R3">
@@ -98,26 +102,25 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h5 style="text-align: center;">Sobre Nós:</h5>
-    <p style="text-align: center;">A empresa MotoRápida, especializada na venda de motocicletas novas e seminovas,
+    </div>
+    </div>
+    
+
+    <div class="row" id="sobre">
+        <div class="col-sm-12">
+            <h5 style="text-align: center;">Sobre Nós:</h5>
+        <p style="text-align: center;">A empresa MotoRápida, especializada na venda de motocicletas novas e seminovas,
         foi fundada<br>por Iago Passaglia e João Augusto, dois empreendedores apaixonados por
         velocidade, inovação e mobilidade urbana.<br>Combinando a experiência comercial de Iago e a visão
         estratégica de João, a MotoRápida rapidamente se destacou no mercado por oferecer atendimento
         personalizado,<br>preços competitivos e uma linha diversificada de modelos. A missão da empresa é
         tornar o sonho da moto própria<br>acessível a todos, com qualidade, confiança e compromisso com o
         cliente.</p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        </div>
+    </div>
 
-    <div class="row">
-        <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="row" id="equipe">
+        <div class="col-sm-6">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">João O Augusto Glanert</h5>
@@ -153,8 +156,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
     </div>
 
 </body>
