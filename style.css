@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 #nomemotoesquerda {
 
     font-size: 45px;
@@ -50,7 +53,7 @@
 
 header{
     background-color: white;
-    height: 100px;
+    height: 70px;
     margin-bottom: 2px;
 }
 
@@ -59,10 +62,66 @@ header nav {
 }
 
 header nav img{
-
-    padding-top: 0px;
-    padding-bottom: 0px;
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
+    margin-left: 25px;
 
 }
+header nav button{
+    width: 65px;
+    height: 65px;
+    margin-right: 25px;
+
+}
+
+#Imagem_Inicial img{
+    width: 1440;
+    object-fit: cover;
+    object-position: center;
+    height: 1686;
+}
+
+#Descricao_Catalogo{
+    display: flex;
+    align-items: center; 
+    margin: auto;
+    padding: 2rem 5%;
+}
+
+#Descricao_texto h3 {
+    font-size: 2rem;
+    font-family: sans-serif;
+    
+    
+}
+#Descricao_texto p {
+    font-size: 1rem;
+    color: #555;
+}
+
+#Descricao_img img {
+    max-width: 100%;
+    height: auto;
+    
+}
+#Final{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 2rem 5%;
+    width: 60%;
+    grid-template-columns: 40% 60%;
+}
+
+#footer{
+    display: flex;
+    background-color: rgb(52, 52, 52);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 2rem 5%;
+}
+
+
