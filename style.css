@@ -99,6 +99,7 @@ header nav button{
     height: 1686;
 }
 
+
 #Descricao_Catalogo{
     display: flex;
     align-items: center; 
@@ -131,14 +132,17 @@ header nav button{
     grid-template-columns: 40% 60%;
 }
 
-#footer{
+
+#footerbranco{
     display: flex;
-    background-color: rgb(52, 52, 52);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: auto;
     padding: 2rem 5%;
+
 }
+
 
