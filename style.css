@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 body{
     overflow-x: hidden;
 }
+=======
+
+>>>>>>> 41ab58526fcd1f0d485ab39a959a3487c480e9e5
 #nomemotoesquerda {
 
     font-size: 45px;
@@ -29,6 +33,7 @@ body{
     color: white;
 }
 
+<<<<<<< HEAD
 #carrossel {
  margin: 0px;
  padding: 0px;
@@ -146,3 +151,5 @@ header nav button{
 }
 
 
+=======
+>>>>>>> 41ab58526fcd1f0d485ab39a959a3487c480e9e5
